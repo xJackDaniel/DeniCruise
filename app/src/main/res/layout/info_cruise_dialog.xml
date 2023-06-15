@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="520dp"
+    android:background="#3E80B4"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3E80B4"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#3E80B4"
+            android:orientation="horizontal" />
+
+        <ImageView
+            android:id="@+id/info_cruise_dialog_image"
+            android:layout_width="283dp"
+            android:layout_height="158dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/global_cruise_1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/name_info_cruise_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="Mystical Cruise"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/start_end_cruise_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="From Israel to Morocco"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/destinations_info_cruise_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="Israel -> Italy -> Spain -> Morocco"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/description_info_cruise_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:gravity="center"
+        android:text="A dream cruise that passes through a variety of countries in the world, exposure to many stunning cultures around the world.\n
+The cruise has a pool, jacuzzi, water slide, sauna, gym, 5 restaurants and 2 bars.
+The ship has 7 floors and about 100 rooms, including 4 suites.
+Every evening on the ship there is a cultural evening in which singers, dancers and stand-up artists will perform."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/price_info_cruise_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="Starting at 1500$"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/order_info_cruise_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order now" />
+
+    <Button
+        android:id="@+id/close_info_cruise_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="#DF3131"
+        android:text="Close" />
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyPage">
+
+    <!--button to open the material design date picker dialog-->
+
+    <TextView
+        android:id="@+id/buy_page_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="128dp"
+        android:fontFamily="@font/norwester"
+        android:text="XXXX Cruise"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/buy_page_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/buy_page_destinations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/norwester"
+        android:text="Destinations: XXXX, XXXX, XXXX AND XXXX"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/show_selected_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_page_image" />
+
+    <EditText
+        android:id="@+id/show_selected_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="9dp"
+        android:enabled="false"
+        android:fontFamily="@font/norwester"
+        android:inputType="textPersonName"
+        android:text="Dates: Select Dates"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/buy_page_price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_page_destinations" />
+
+    <Button
+        android:id="@+id/pick_date_button"
+        android:layout_width="143dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="57dp"
+        android:text="Select Date"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button5" />
+
+    <TextView
+        android:id="@+id/buy_page_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/norwester"
+        android:text="Total to pay: XXX$"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/suite_switch_buy_page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_selected_date" />
+
+    <ImageView
+        android:id="@+id/buy_page_image"
+        android:layout_width="225dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/buy_page_destinations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_page_name"
+        app:srcCompat="@drawable/buy_page_cruise" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="143dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="56dp"
+        android:onClick="BuyCruise"
+        android:text="Buy now"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/pick_date_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/suite_switch_buy_page"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="10dp"
+        android:text="Suite"
+        app:layout_constraintBottom_toTopOf="@+id/insurance_switch_buy_page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_page_price" />
+
+    <Switch
+        android:id="@+id/insurance_switch_buy_page"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="64dp"
+        android:text="Insurance"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/suite_switch_buy_page" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

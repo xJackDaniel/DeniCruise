@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+    tools:context=".HomePage">
+
+
+    <TextView
+        android:id="@+id/main_title4"
+        android:layout_width="318dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="44dp"
+        android:fontFamily="@font/norwester_font"
+        android:text="Choose the cruise you want:"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="174dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#989D96"
+        android:fontFamily="@font/norwester_font"
+        android:onClick="GlobalActivity"
+        android:text="Global cruise"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_title4" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="174dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="17dp"
+        android:backgroundTint="#989D96"
+        android:fontFamily="@font/norwester_font"
+        android:onClick="EuropeActivity"
+        android:text="Europe Cruise"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_title4" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="174dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="121dp"
+        android:backgroundTint="#989D96"
+        android:fontFamily="@font/norwester_font"
+        android:onClick="AmericaActivity"
+        android:text="America Cruise"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_title4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

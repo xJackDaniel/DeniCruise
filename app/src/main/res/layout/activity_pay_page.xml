@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PayPage">
+
+    <TextView
+        android:id="@+id/pay_page_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="88dp"
+        android:text="Total to pay: XX $"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pay_page_card_number"
+        android:layout_width="339dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:hint="Card Number"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pay_page_cruise_name" />
+
+    <EditText
+        android:id="@+id/pay_page_card_date"
+        android:layout_width="122dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="37dp"
+        android:ems="10"
+        android:hint="MM/YY"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/pay_page_card_cvv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pay_page_card_number" />
+
+    <EditText
+        android:id="@+id/pay_page_card_cvv"
+        android:layout_width="140dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="66dp"
+        android:ems="10"
+        android:hint="CVV"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/pay_page_pay_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pay_page_card_date"
+        app:layout_constraintTop_toBottomOf="@+id/pay_page_card_number" />
+
+    <TextView
+        android:id="@+id/pay_page_cruise_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="99dp"
+        android:text="XXX Cruise - Quantity: X"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pay_page_total" />
+
+    <Button
+        android:id="@+id/pay_page_pay_button"
+        android:layout_width="137dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="137dp"
+        android:backgroundTint="#17B5E4"
+        android:text="Buy Now"
+        android:onClick="PayCruise"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pay_page_card_date" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

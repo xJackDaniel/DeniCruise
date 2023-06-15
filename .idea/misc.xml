@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/drawable/home_button.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/font/norwester.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/activity_america_cruise_page.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/activity_animation_page.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/activity_buy_page.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/activity_europe_cruise_page.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/activity_global_cruise_page.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/activity_home_page.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/activity_my_cruises_page.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/activity_pay_page.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/activity_profile_page.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/activity_sign_up_page.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/activity_splash_screen.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/info_cruise_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/layout/settings_activity.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/menu/MainMenu.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/menu/activity_menu.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/menu/menu_main.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DeniCruise/app/src/main/res/xml/root_preferences.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
