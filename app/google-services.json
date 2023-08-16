@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "848875572722",
-    "project_id": "denicruise-58ccd",
-    "storage_bucket": "denicruise-58ccd.appspot.com"
+    "project_number": "",
+    "project_id": "",
+    "storage_bucket": ""
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:848875572722:android:03913ba27062fcc5fb6f6b",
+        "mobilesdk_app_id": "",
         "android_client_info": {
           "package_name": "com.example.denicruise"
         }
       },
       "oauth_client": [
         {
-          "client_id": "848875572722-296pd795p1cjr7gtrmoca2bo95ppo4gi.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAnSZ8UwZL0jFo-4W4hCZHQfFsZvVxdDf4"
+          "current_key": ""
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "848875572722-296pd795p1cjr7gtrmoca2bo95ppo4gi.apps.googleusercontent.com",
+              "client_id": "",
               "client_type": 3
             }
           ]
